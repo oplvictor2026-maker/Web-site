@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "AI-OS | 下一代智能操作系统",
   description: "AI-OS 是专为 AI 时代打造的下一代智能操作系统，提供强大的 AI 能力、无缝的跨设备体验和开发者友好的平台。",
   keywords: ["AI-OS", "人工智能", "操作系统", "AI Platform", "智能系统"],
-  authors: [{ name: "Victor", email: "victor@fengfan.com" }],
+  authors: [{ name: "Victor" }],
   openGraph: {
     title: "AI-OS | 下一代智能操作系统",
     description: "专为 AI 时代打造的下一代智能操作系统",
