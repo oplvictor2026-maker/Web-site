@@ -49,6 +49,27 @@ export default function EnterprisePage() {
           innovation while maintaining enterprise governance standards.
         </p>
       </section>
+
+      <section className="mt-16 rounded-lg border p-8">
+        <h2 className="text-2xl font-semibold">Enterprise Deployment Options</h2>
+        <ul className="mt-4 list-disc space-y-2 pl-6 leading-7">
+          <li>Private cloud or on-premise deployment.</li>
+          <li>Dedicated governance policy configuration.</li>
+          <li>Custom memory retention and compliance settings.</li>
+          <li>Architecture review and rollout advisory.</li>
+        </ul>
+        <p className="mt-6 leading-7">
+          Our enterprise team partners with your architecture and compliance
+          stakeholders to ensure secure, auditable, and scalable AI-OS
+          integration.
+        </p>
+        <a
+          href="/contact"
+          className="mt-6 inline-block rounded-md bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700"
+        >
+          Book Enterprise Demo
+        </a>
+      </section>
     </main>
   );
 }

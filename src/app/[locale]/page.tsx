@@ -1,3 +1,16 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI-OS Enterprise Infrastructure",
+  description: "Enterprise AI-OS governance and memory infrastructure.",
+  alternates: {
+    languages: {
+      en: "/en",
+      zh: "/zh",
+    },
+  },
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0b0f19] text-white">
@@ -16,9 +29,12 @@ export default function Home() {
           构建真正可控的 AI 组织基础设施。
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-6">
-          <button className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-xl font-semibold">
+          <a
+            href="/contact"
+            className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-xl font-semibold inline-block"
+          >
             预约企业演示
-          </button>
+          </a>
           <button className="border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-xl font-semibold">
             查看系统架构
           </button>
@@ -130,13 +146,23 @@ export default function Home() {
           与我们合作，部署企业级 AI‑OS 基础设施，
           打造具备记忆、结构与治理能力的下一代 AI 组织。
         </p>
-        <button className="bg-blue-600 hover:bg-blue-700 px-10 py-4 rounded-xl font-semibold text-lg">
+        <a
+          href="/contact"
+          className="bg-blue-600 hover:bg-blue-700 px-10 py-4 rounded-xl font-semibold text-lg inline-block"
+        >
           Book Enterprise Demo
-        </button>
+        </a>
       </section>
 
-      <footer className="py-12 text-center text-gray-500 text-sm bg-[#0b0f19] border-t border-gray-800">
-        AI‑OS © 2026 · Enterprise Autonomous AI Infrastructure
+      <footer className="py-12 text-center text-gray-500 text-sm bg-[#0b0f19] border-t border-gray-800 space-y-4">
+        <div className="flex justify-center gap-6">
+          <a href="/privacy" className="hover:text-gray-300">Privacy</a>
+          <a href="/terms" className="hover:text-gray-300">Terms</a>
+          <a href="/contact" className="hover:text-gray-300">Contact</a>
+        </div>
+        <div>
+          AI‑OS © 2026 · Enterprise Autonomous AI Infrastructure
+        </div>
       </footer>
 
     </main>
