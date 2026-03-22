@@ -137,6 +137,14 @@ export default function Home() {
             <p>支持跨部门、多角色的 AI 协作实验体系。</p>
           </div>
         </div>
+        <div className="mt-12">
+          <a
+            href="/en/case-studies"
+            className="border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-xl font-semibold inline-block"
+          >
+            查看企业案例
+          </a>
+        </div>
       </section>
 
       {/* STRONG CTA */}
