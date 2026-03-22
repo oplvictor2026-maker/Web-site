@@ -35,9 +35,12 @@ export default function Home() {
           >
             预约企业演示
           </a>
-          <button className="border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-xl font-semibold">
-            查看系统架构
-          </button>
+          <a
+            href="/en/roadmap"
+            className="border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-xl font-semibold inline-block"
+          >
+            查看产品路线图
+          </a>
         </div>
       </section>
 
